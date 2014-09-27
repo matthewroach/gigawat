@@ -5,8 +5,8 @@
 			<h1>About Gigaw.at</h1>
 
 			<p>
-				Gigaw.at was created to fill a personal goal, and while I was at it I decided it would be nice to make it  
-				open for public use. As you may have guessed from the name of this application I have a little obsession 
+				Gigaw.at was created to fill a personal goal, and while I was at it I decided it would be nice to make it
+				open for public use. As you may have guessed from the name of this application I have a little obsession
 				with Back to the Future. <br />
 				I know there are other link shortener services out there, but I wanted to write one.
 			</p>
@@ -16,9 +16,8 @@
 			</p>
 
 			<p>
-				If you need to get in touch about something try us at Twitter 
-				(<a href="http://twitter.com/gigaw_at" title="Gigawat on Twitter">@gigaw_at</a>) or drop us an email 
-				<a href="mailto:404@gigaw.at" title="Email Us">Email Us</a>
+				If you need to get in touch about something try me at Twitter
+				<a href="http://twitter.com/gigaw_at" title="Gigawat on Twitter">@gigaw_at</a>
 			</p>
 
 		</div>
