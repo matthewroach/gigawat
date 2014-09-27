@@ -1,0 +1,192 @@
+
+body {
+	border-top: 8px solid #F29937;
+	font-family: 'Ubuntu', sans-serif;;
+	color: rgb(100,100,100);
+}
+
+.sticky .row:first-child {
+	margin: 10% 0 5% 0;
+}
+
+.col6 {
+	position: relative;
+}
+
+.notification {
+	background: rgb(242, 153, 55);
+	color: rgb(255,255,255);
+	position: absolute;
+	left: 0;
+	margin: 0 auto;
+	padding: 3.5% 6% 2% 6%;
+	right: 0;
+	top: 4%;
+	width: 80%;
+	z-index: 10;
+}
+
+
+.error-text {
+	background: rgb(255,255,255);
+	border-right: 1px solid rgb(211, 59, 59);
+	border-bottom: 1px solid rgb(211, 59, 59);
+	border-left: 1px solid rgb(211, 59, 59);
+	left: 0;
+	padding: 2% 0;
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	width: 100%;
+}
+
+form {
+	margin: 5% 0;
+}
+
+form legend {
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+	form fieldset > div {
+		margin: 20px 0;
+		position: relative;
+	}
+
+	form input[type=text] {
+		border: 1px solid white;
+		border-radius: 8px;
+		box-shadow: 0 0 30px rgb(255, 224, 187);
+		color: rgb(140,140,140);
+		font-size: 1.3em;
+		height: 20px;
+		padding: 4% 9% 4% 2%;
+		width: 89%;
+
+		-webkit-transition: all linear 1s;
+		-moz-transition: color linear 1s;
+		transition: color linear 1s;
+	}
+		input[type=text]:focus {
+			outline: none;
+			box-shadow: 0 0 30px rgb(255, 169, 71);
+		}
+
+	form input[type=submit] {
+		background: url(/a/images/lightning-bolt.png) center center no-repeat;
+		background-size: contain;
+		border: none;
+		bottom: 5%;
+		float: right;
+		height: 90%;
+		position: absolute;
+		outline: none;
+		right: 1%;
+		text-indent: -99999px;
+		top: 5%;
+		width: 10%;
+	}
+		input[type=submit]:hover {
+			cursor: pointer;
+			opacity: 0.8;
+		}
+
+	input[type=text].error {
+		border: 1px solid rgb(211, 59, 59);
+	}
+
+
+
+.footer {
+	color: rgb(100,100,100);
+	font-size: 0.8em;
+	height: 100px;
+	margin: 0 auto;
+	width: 100%;
+}
+	.footer > div {
+		border-top: 2px solid rgb(248, 203, 153);
+		padding: 2% 0;
+	}
+
+
+
+
+.focus {
+	background: rgb(242, 153, 55);
+	color: rgb(255,255,255);
+	margin: 0 0 5% 0;
+	padding: 2%;
+
+	-webkit-transition: color linear 1s;
+	-moz-transition: color linear 1s;
+	transition: color linear 1s;
+}
+	.focus a {
+		color: rgb(255,255,255);
+	}
+	.focus:hover, .focus.hover {
+		color: rgb(219,219,219);
+		cursor: pointer;
+	}
+
+	.focus.copied {
+		color: rgb(0,0,0);
+	}
+
+
+
+.i {
+	background-position: 0 0;
+	background-size: 16px 16px;
+	height: 16px;
+	width: 16px;
+}
+	.i.title {
+		background-image: url(/a/images/title-icon.png);
+	}
+	.i.world {
+		background-image: url(/a/images/world-icon.png);
+	}
+
+
+
+h1 {
+	color: rgb(242, 153, 55);
+	text-align: center;
+	font-family: Orbitron;
+}
+	.huge {
+		font-size: 45px;
+	}
+
+
+a {
+	color: rgb(150,150,150);
+	text-decoration: none;
+}
+
+	a:hover {
+		color: rgb(242, 153, 55);
+	}
+
+
+
+
+@media only screen and (max-width:800px){
+
+	.row > div {
+		width: 80%;
+		word-wrap: break-word;
+	}
+
+}
+
+@media only screen and (max-width:640px){
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+}

@@ -1,0 +1,38 @@
+
+#################
+## OpenBD
+#################
+
+*.dll
+*.bak.*
+ZZ
+rtelogs*
+WEB-INF/bluedragon/work
+
+
+############
+## Web App
+############
+
+.env
+
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+
+############
+## Mac
+############
+
+
+# Mac crap
+.DS_Store
